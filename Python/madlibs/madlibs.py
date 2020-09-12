@@ -1,3 +1,10 @@
+# madlibs
+# Jordan Stoner
+# September 2020
+
+# Program successively prompts user for various word types.
+# Program returns a MadLib story using the supplied words.
+
 adjective_1 = input("Adjective: ")
 place_1 = input("Place: ")
 adjective_2 = input("Adjective: ")

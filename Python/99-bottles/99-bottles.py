@@ -1,3 +1,9 @@
+# 99-bottles
+# Jordan Stoner
+# September 2020
+
+# Program prints the lyrics to the classic song while iterating through a range.
+
 def bottles():
     for bottle_count in range(99, 0, -1):
 
