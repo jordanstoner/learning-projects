@@ -40,9 +40,13 @@ def generate_response():
         "Absolutely!",
         "Definitely yes!",
         "Sure thing!",
-        "The stars say YES!"
+        "I'm not going to stop you...I'm a ball",
+        "The stars say YES!",
+        "If you want to...",
         "Ask again...",
         "I'm not sure...",
+        "Your mother would not approve",
+        "Well yes...but no...",
         "Why would you ask that!?!",
         "Probably not",
         "Emphatically NO!"
