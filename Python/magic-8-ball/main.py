@@ -56,26 +56,26 @@ def generate_response():
 
 
 def main():
-    # prompt_user()
-    # thinking()
-    # print(generate_response())
-    root = Tk()
+    prompt_user()
+    thinking()
+    print(generate_response())
+    # root = Tk()
     
-    def ask_click():
-        myLabel = Label(root, text=e.get())
-        myLabel.pack()
+    # def ask_click():
+    #     myLabel = Label(root, text=e.get())
+    #     myLabel.pack()
 
-    entry_label = Label(root, text='What would you like to ask?', borderwidth=5)
-    entry_label.pack()
+    # entry_label = Label(root, text='What would you like to ask?', borderwidth=5)
+    # entry_label.pack()
 
-    e = Entry(root, width=50)
-    e.pack()
-    e.insert(0, 'Type question here...')
+    # e = Entry(root, width=50)
+    # e.pack()
+    # e.insert(0, 'Type question here...')
 
-    ask_button = Button(root, text='Ask', command=ask_click)    
-    ask_button.pack()
+    # ask_button = Button(root, text='Ask', command=ask_click)    
+    # ask_button.pack()
 
-    root.mainloop()
+    # root.mainloop()
 
 if __name__ == "__main__":
     main()
